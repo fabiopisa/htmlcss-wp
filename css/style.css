@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header, main, footer{
+  width: 80%;
+  margin: auto;
+}
+
+header, main{
+  margin-top: 20px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* intestazione sito */
+.logo img{
+  border-right: 1px solid #F2F2F2;
+  padding-right: 30px;
+}
+
+.interaction nav{
+  margin-top: 40px;
+}
+nav li{
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+nav li a{
+  color:#B2B2B2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:25px;
+}
+
+nav li a:hover{
+  color: #2c2826;
+}
+
+header .banner{
+  height: 300px;
+  background-color:#E1D67A ;
+  margin-top: 20px;
+}
+
+/* corpo del sito */
+main{
+  background-color:#0086FF ;
+}
+
+main .primal,
+main .central,
+main .last{
+  float: left;
+  margin: 2% 0;
+}
+
+main .title{
+  height: 50px;
+  background-color: #ABCFE7;
+}
+
+main .primal,
+main .last{
+  height: 300px;
+  background-color: #ABCFE7;
+  width: 20%;
+}
+
+main .central{
+  height: 300px;
+  background-color: #ABCFE7;
+  width: 56%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* footer del sito */
+footer {
+  height: 40px;
+  background-color: #8801FE;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
