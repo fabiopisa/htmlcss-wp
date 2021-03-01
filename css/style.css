@@ -21,13 +21,20 @@ header, main{
 
 body{
   font-family: 'Montserrat', sans-serif;
+  font-size: 300;
+}
+
+.cover{
+  background-color: rgba(30, 30, 30, 0.20);
+  height: 100%;
 }
 
 /* intestazione sito */
 /* logo */
 .logo img{
   border-right: 2px solid #E8E8E8;
-  padding-right: 30px;
+  padding-right: 30px; 
+  height: 80px;
 }
 
 .interaction nav{
@@ -44,7 +51,7 @@ nav li a{
   color:#B2B2B2;
   text-decoration: none;
   text-transform: uppercase;
-  font-size:25px;
+  font-size:  20px;
 }
 
 nav li a:hover{
@@ -58,26 +65,19 @@ header .banner{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-header .cover{
-  background-color: rgba(30, 30, 30, 0.20);
-}
-
-header .banner,
-header .cover{
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .written{
-  padding-top: 450px;
-  padding-left: 40px;
+  padding-top: 400px;
+  padding-left: 60px;
   padding-bottom: 60px;
   padding-right: 400px;
   color: #ffffff;
 }
 
-.written h1{
+.written h3{
   font-size: 40px;
 }
 
@@ -91,11 +91,11 @@ main .title{
   margin-top: 40px;
 }
 
-.title h1{
+.title h2{
   font-size:50px;
 }
 
-.title p{
+.title h4{
   font-size: 20px;
   color: #BBBBBB;
 }
@@ -125,51 +125,46 @@ main .central{
 
 .second-img{
   background-image: url(../img/banner-2.jpg);
-  background-position: center;
 }
 
 .third-img{
   background-image: url(../img/img-3.jpg);
+}
+
+.first-img, .second-img, .third-img{
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center ;
 }
 
-.first-img, .second-img, .third-img, .trasparent{
-  height: 300px;
-  border-radius: 15px;
-}
-
-.trasparent{
-  background-color: rgba(30, 30, 30, 0.20);
-}
-
-h2{
+ main h4{
   line-height: 60px;
+}
+
+main h4, main p{
+  font-size: 20px;
 }
 
 main p{
   color: #A3A3A3;
 }
 
-
 /* footer del sito */
 footer {
   margin-bottom: 20px;
   margin-top: 5px;
+  text-align: center;
 }
 
-footer section span::after{
+footer span::after{
   content:'\2764';
   color: #FF0000;
   font-size:25px ;
 }
 
-footer section{
-  text-align: center;
-}
-
-footer section span{
+footer span{
   font-size: 20px;
 }
-
